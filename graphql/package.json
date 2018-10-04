@@ -1,0 +1,36 @@
+{
+  "name": "learn-anything-graphql",
+  "version": "1.0.0",
+  "description": "Learn Anything GraphQL Server",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Angelo Gazzola",
+      "email": "angelo@nglgzz.com",
+      "url": "https://github.com/nglgzz"
+    },
+    {
+      "name": "Nikita Voloboev",
+      "email": "nikita.voloboev@gmail.com",
+      "url": "https://github.com/nikitavoloboev"
+    }
+  ],
+  "main": "src/index.js",
+  "repository": "learn-anything/learn-anything",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon -e js,graphql --exec babel-node src/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.1.0",
+    "graphql": "^14.0.2",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "nodemon": "^1.18.4",
+    "prettier": "^1.14.3"
+  }
+}
